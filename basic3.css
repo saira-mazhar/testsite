@@ -1,0 +1,175 @@
+body{
+    font-family: 'Ubuntu', sans-serif;
+    /* background: slategray; */
+    margin:0;
+    padding:0;
+    background: rgba(0, 0, 0,0.7) url('../img/tree.jpg');
+    background-size: cover;
+    background-blend-mode: darken; 
+   
+}
+.wrapper{
+    border: 0px solid black;
+    width: 1000px;
+    /* background: rgb(82, 84, 85); */
+    margin: 0px auto;
+    /* margin-top: 150px; */
+    box-sizing: border-box;
+    
+}
+.content{
+     width: 700px;
+     float: left;
+     min-height: 500px;
+     padding: 35px;
+     box-sizing: border-box;
+     /* text-align: center; */
+     background: rgb(216, 210, 210);
+     margin: 0px auto;
+     margin-top: 150px;
+     font-size: 20px;
+     
+     
+     
+}
+.btn{
+    background: rgb(20, 148, 120);
+    width: 150px;
+    height: 50px;
+    border-radius: 30px;
+    font-size: 20px;
+    border: none;
+    font-weight: bold;
+    /* text-align: center; */
+    margin-left:70px;
+    margin-top: 25px;
+    box-sizing: border-box;
+}
+.content i{
+    padding: 15px;
+    font-size: 20px;
+    color: rgb(20, 148, 120);
+}
+.content li{
+    display: inline-block;
+    /* padding: 10px 13px; */
+    margin: 0 auto;
+    margin-left: 60px;
+    /* color: white; */   
+}
+.sidebar{
+    /* background: lightblue; */
+    width: 300px;
+    float: right;
+    height:700px;
+    box-sizing: border-box;
+    display: flex;
+    margin-top: 80px;
+}
+.sidebar img{
+    height:700px;
+    width: 300px;
+    box-sizing: border-box;
+    border-radius: 12px;
+}
+.footer{
+    margin-bottom: -30px;
+    margin-top: 35px;
+    box-sizing: border-box;
+}
+hr{
+    /* height:1px; */
+    width: 50%;
+    
+    margin-left:0;
+    /* background-color:lightsrgb(20, 148, 120); */
+    border:3px solid rlightsrgb(20, 148, 120);
+}
+.h11::after{
+    content: "";
+    display: block;
+    height: 1px;
+    width: 2em;
+    margin: 0.7em auto 0.5em;
+    background: rgb(230, 12, 164);
+    opacity: 0.25;
+    justify-content: center;
+}
+@media screen and (max-width:1020px){
+    .wrapper{
+        width: 800px;
+    }
+    .content{
+        width: 80%;
+    }
+    .content ul{
+        display: block;
+    }
+    .sidebar{
+        width: 20%;   
+    }
+    .sidebar img{
+        width: 100%;
+        
+    
+    }
+   
+
+}
+@media screen and (max-width:810px){
+    .wrapper{
+    width: 500px;  
+}
+.content{
+    
+    width: 100%;
+    float: none;
+}
+.content ul{
+    padding: 5px;
+    display: block;
+    
+    
+
+}
+.sidebar{
+    
+    float: none; 
+    width: 100%; 
+}
+.sidebar img{
+    width: 100%;
+
+}
+}
+@media screen and (max-width:510px){
+    .wrapper{
+        width: auto; 
+}
+    .content{
+       width: 80%;
+       height: 70%;
+       margin-top: 0;
+       /* float: left; */
+       margin-bottom: 0;
+}
+    .sidebar{
+    height: auto;
+    
+    margin-bottom: -40px;
+    
+}
+.sidebar img{
+    width: 225px;
+    height: 225px;
+    border-radius: 50%;
+    margin: 0 auto;
+
+}
+h1{
+    text-align: center;
+}
+
+
+    
+}
